@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,43 +7,46 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,400;1,200;1,400&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <header>
     <nav>
       <div class="logo">
-        <a href="#">ANNA SALVADORI</a>
+        <a href="https://asalvadori.github.io/UX_UI_HW_19/">ANNA SALVADORI</a>
       </div>
-      <ul>
-        <li><a href="#">Work</a></li>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="https://asalvadori.github.io/UX_UI_HW_19/">Work</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Résumé</a></li>
-        <li><a href="#">LinkedIn</a></li>
+        <li><a href="https://annasalvadori.my.canva.site/resume2024">Résumé</a></li>
+        <li><a href="https://www.linkedin.com/in/annasalvadori">LinkedIn</a></li>
         <li><a href="#">Contact Me</a></li>
-        <!-- DARK MODE FEATURE - TODO in JS  -->
         <label class="switch">
           <input type="checkbox" id="dark-mode-toggle">
           <span class="slider round"></span>
         </label>
-        <!-- DARK MODE FEATURE - END -->
       </ul>
     </nav>
   </header>
   <main>
     <section class="intro">
-      <h1 class="animated-text">HI! I’m Anna Salvadori.</h1>
+      <h1 class="animated-text">Hi! I’m Anna Salvadori.</h1>
       <p>I’m a <b>UX Designer / Interaction Designer</b> based in the UK. Passionate about crafting intuitive, user-centered solutions, I thrive on data-backed research, rapid iteration, and delivering functional interfaces. I'm excited to join a team to continue making a difference in user experiences.</p>
-      <p >Welcome to my portfolio.</p>
+      <p ><b>Welcome to my portfolio.</b></p>
     </section>
     <section>
+      <h2 class="section-title">Case Studies</h2>
       <div class="projectGrid">
         <div class="gridcell1">
           <div class="image-hover">
             <div class="image-container">
-              <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" alt="brainstorming">
+              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS_0qqJJj9hL_eYGo77zFx79yqu19ZV6Lmk7zjzq36vOHwBUUi94LTWl5k4T7aiLure_w58_ysTJadT/pub?w=480&h=360" alt="mock up 1">
               <div class="overlay">
                 <h2>Cliff Kennels LTD</h2>
                 <p>Redesign of the Cliff's Kennels Website.</p>
@@ -56,7 +58,7 @@
         <div class="gridcell2">
           <div class="image-hover">
             <div class="image-container">
-              <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" alt="brainstorming">
+              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS_0qqJJj9hL_eYGo77zFx79yqu19ZV6Lmk7zjzq36vOHwBUUi94LTWl5k4T7aiLure_w58_ysTJadT/pub?w=480&h=360" alt="mock up 2">
               <div class="overlay">
                 <h2>Energy.gov</h2>
                 <p>Redesign of the Energy.gov Website.</p>
@@ -68,7 +70,7 @@
         <div class="gridcell3">
           <div class="image-hover">
             <div class="image-container">
-              <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" alt="brainstorming">
+              <img src="https://docs.google.com/drawings/d/e/2PACX-1vS_0qqJJj9hL_eYGo77zFx79yqu19ZV6Lmk7zjzq36vOHwBUUi94LTWl5k4T7aiLure_w58_ysTJadT/pub?w=480&h=360" alt="mock up 3">
               <div class="overlay">
                 <h2>Coming Soon</h2>
                 <p>Redesign of Website.</p>
@@ -80,31 +82,29 @@
       </div>
     </section>
     <button id="scrollUpBtn" title="Go to top" class="bounce">Top</button>
-    <button id="scrollUpBtn" title="Go to top">Top</button>
     <section class="testimonial">
-  <h2>What People Say About Me</h2>
-  <div class="testimonial-carousel">
-    <div class="testimonial-item">
-      <img src="https://media.licdn.com/dms/image/D4E03AQGlNBKgLrk-hQ/profile-displayphoto-shrink_800_800/0/1713363722406?e=1726704000&v=beta&t=B3TL2Pp2z8gajYQDRhFDBKDc5LBdmU-BHor_m7GC3Nw" alt="Stephanie Stawiszynski" class="testimonial-img">
-      <div class="testimonial-content">
-        <p>“Working with Anna on our web redesign project was a delight. Her exceptional problem-solving skills and attention to detail played a vital role in our success. Anna demonstrated strong collaboration skills and effortlessly fit into our team. I highly recommend her for her dedication, professionalism, and ability to work well with others. Any team would be lucky to have Anna on board!”</p>
-        <footer>— Stephanie Stawiszynski, UX/UI Student</footer>
+      <h2>What People Say About Me</h2>
+      <div class="testimonial-carousel">
+        <div class="testimonial-item">
+          <img src="https://media.licdn.com/dms/image/D4E03AQGlNBKgLrk-hQ/profile-displayphoto-shrink_800_800/0/1713363722406?e=1726704000&v=beta&t=B3TL2Pp2z8gajYQDRhFDBKDc5LBdmU-BHor_m7GC3Nw" alt="Stephanie Stawiszynski" class="testimonial-img">
+          <div class="testimonial-content">
+            <p>“Working with Anna on our web redesign project was a delight. Her exceptional problem-solving skills and attention to detail played a vital role in our success. Anna demonstrated strong collaboration skills and effortlessly fit into our team. I highly recommend her for her dedication, professionalism, and ability to work well with others. Any team would be lucky to have Anna on board!”</p>
+            <footer>— Stephanie Stawiszynski, UX/UI Student</footer>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <img src="https://media.licdn.com/dms/image/C5103AQHKfWl-oiuhjA/profile-displayphoto-shrink_800_800/0/1517422168332?e=1727308800&v=beta&t=0i_KGH8O6G0vKHVKRiRw60cxJeHL7huxJyR4KT5TJCA" alt="Jennifer Barr" class="testimonial-img">
+          <div class="testimonial-content">
+            <p>“A real standout talent - Anna redesigned our entire clinic website in under a month. She made the entire process incredibly smooth and straightforward and we have received many, many compliments from patients since about the clever design and how user friendly it is. If you’re looking for someone to help you take your website to the next level, I’d highly recommend hiring Anna!”</p>
+            <footer>— Jennifer Barr, Client</footer>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="testimonial-item">
-      <img src="https://media.licdn.com/dms/image/D4E03AQGlNBKgLrk-hQ/profile-displayphoto-shrink_800_800/0/1713363722406?e=1726704000&v=beta&t=B3TL2Pp2z8gajYQDRhFDBKDc5LBdmU-BHor_m7GC3Nw" alt="Stephanie Stawiszynski" class="testimonial-img">
-      <div class="testimonial-content">
-        <p>“Anna demonstrated strong collaboration skills and effortlessly fit into our team. I highly recommend her for her dedication, professionalism, and ability to work well with others. Any team would be lucky to have Anna on board!”</p>
-        <footer>— Jennifer Barr, Client</footer>
+      <div class="carousel-controls">
+        <span class="prev">&lt;</span>
+        <span class="next">&gt;</span>
       </div>
-    </div>
-  </div>
-  <div class="carousel-controls">
-    <span class="prev">&lt;</span>
-    <span class="next">&gt;</span>
-  </div>
-</section>
-
+    </section>
     <section class="contact">
       <h2>Contact Me</h2>
       <div class="contact-container">
@@ -123,22 +123,33 @@
           </div>
           <button type="submit" class="send-button">Send Message</button>
         </form>
-        <section class="contact2">
+        <div class="contact2">
           <div class="contact-info">
             <h3>Get in Touch</h3>
-            <p>Phone:<br> +44 756 33 62 163</p>
-            <p>Email:<br> hello@annasalvadori.com</p>
+            <p>Phone:<br> <a href="tel:+447563362163">+44 756 33 62 163</a></p>
+            <p>Email:<br> <a href="mailto:hello@annasalvadori.com">hello@annasalvadori.com</a></p>
             <p>Address:<br> Leicester, UK</p>
-            <p>LinkedIn:<br> @annasalvadori</p>
+            <p>LinkedIn:<br> <a href="https://www.linkedin.com/in/annasalvadori" target="_blank">@annasalvadori</a></p>
           </div>
+        </div>
       </div>
-    </section>
-
     </section>
   </main>
   <footer>
+    <nav>
+      <ul>
+        <li><a href="https://asalvadori.github.io/UX_UI_HW_19/">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="https://annasalvadori.my.canva.site/resume2024">Résumé</a></li>
+        <li><a href="https://www.linkedin.com/in/annasalvadori">LinkedIn</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
     <p>&copy; 2024 Anna Salvadori</p>
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./script.js"></script>
 </body>
+</html>
