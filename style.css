@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -8,8 +8,10 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 
 header {
@@ -131,7 +133,7 @@ blockquote footer {
 .section-title, .testimonial h2 {
   text-align: left;
   margin-bottom: 40px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 2.5em;
   color: var(--text-color);
 }
@@ -162,7 +164,7 @@ body.dark-mode .section-title, body.dark-mode .testimonial h2 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 92%;
+  width: 92.5%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -468,7 +470,7 @@ body.dark-mode .contact {
 .contact h2 {
   text-align: center;
   margin-bottom: 40px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 2.5em;
 }
 
@@ -494,7 +496,7 @@ body.dark-mode .contact {
 }
 
 .contact-info h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 1.5em;
   margin-bottom: 20px;
   color: white;
@@ -536,7 +538,7 @@ body.dark-mode .contact {
   border: 3px solid black;
   border-radius: 5px;
   font-size: 1em;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Overpass', sans-serif;
   box-sizing: border-box;
   background-color: var(--input-bg-color);
   color: gray;
@@ -639,7 +641,7 @@ body.dark-mode .send-button:hover {
 }
 
 .animated-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 2.5em;
   white-space: nowrap;
   overflow: hidden;
@@ -649,7 +651,7 @@ body.dark-mode .send-button:hover {
 }
 
 .static-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 2.5em;
   white-space: nowrap;
   overflow: visible;
